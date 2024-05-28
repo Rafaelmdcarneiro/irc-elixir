@@ -1,9 +1,5 @@
 # ExIRC
 
-[![Build Status](https://travis-ci.org/bitwalker/exirc.svg?branch=master)](https://travis-ci.org/bitwalker/exirc)
-![.github/workflows/tests.yaml](https://github.com/bitwalker/exirc/workflows/.github/workflows/tests.yaml/badge.svg)
-[![Hex.pm Version](http://img.shields.io/hexpm/v/exirc.svg?style=flat)](https://hex.pm/packages/exirc)
-
 ExIRC is a IRC client library for Elixir projects. It aims to have a clear, well
 documented API, with the minimal amount of code necessary to allow you to connect and
 communicate with IRC servers effectively. It aims to implement the full RFC2812 protocol,
@@ -176,18 +172,6 @@ defmodule ExampleLoginHandler do
   end
 end
 ```
-
-## Projects using ExIRC (in the wild!)
-
-Below is a list of projects that we know of (if we've missed anything,
-send a PR!) that use ExIRC in the wild.
-
-- [Kuma][kuma] by @ryanwinchester
-- [Offension][offension] by @shymega
-- [hedwig_irc][hedwig_irc] by @jeffweiss
-- [Hekateros][hekateros] by @tchoutri
-
-[kuma]: https://github.com/ryanwinchester/kuma
 [offension]: https://github.com/shymega/offension
 [hedwig_irc]: https://github.com/jeffweiss/hedwig_irc
 [hekateros]: https://github.com/friendshipismagic/hekateros
